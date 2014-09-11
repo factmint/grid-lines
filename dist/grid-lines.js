@@ -1,4 +1,4 @@
-define(['Snap'],
+define(['snap'],
 function(Snap) {
 	return Snap.plugin(function(Snap, Element, Paper) {
 
