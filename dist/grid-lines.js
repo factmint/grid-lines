@@ -1,4 +1,5 @@
-define(function() {
+define(['Snap'],
+function(Snap) {
 	return Snap.plugin(function(Snap, Element, Paper) {
 
 		Paper.prototype.gridLines = function(startX, startY, startPoints, length, orientation) {
